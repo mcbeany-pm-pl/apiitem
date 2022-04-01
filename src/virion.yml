@@ -1,0 +1,6 @@
+name: apiitem
+version: 0.0.1
+antigen: boymelancholy\apiitem
+api: [4.0.0]
+php: [8.0]
+author: boymelancholy
