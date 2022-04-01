@@ -75,7 +75,8 @@ class MagicRod extends CustomItem
 
 # Useful methods
 All methods below are per-item data storage methods for your convenience.  
-
+These stored data will disappear when the server shuts down.  
+Data divided by player will be lost when a player leaves the server.
 
 |Method|Description|
 |:---|:---|
