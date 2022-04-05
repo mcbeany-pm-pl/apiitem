@@ -27,7 +27,7 @@ class CustomItemFactory
      */
     public static function register(CustomItem $customItem)
     {
-        ItemFactory::getInstance()->register($customItem);
+        ItemFactory::getInstance()->register($customItem, true);
         self::$customItems[$customItem::class] = $customItem;
     }
 
